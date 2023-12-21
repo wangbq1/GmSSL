@@ -23,7 +23,7 @@
 #include <gmssl/x509_alg.h>
 
 
-static const uint32_t oid_hmac_sm3[] = { oid_sm_algors,401,2 };
+static const uint32_t oid_hmac_sm3[] = { oid_sm_algors,401,3,1 };
 static const size_t oid_hmac_sm3_cnt = sizeof(oid_hmac_sm3)/sizeof(oid_hmac_sm3[0]);
 
 char *pbkdf2_prf_name(int oid)
